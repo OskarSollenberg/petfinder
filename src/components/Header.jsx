@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [activeHeader, setActiveHeader] = useState(false);
 
   const navigation = [
     { name: "Product", href: "#" },
@@ -11,8 +12,24 @@ function Header() {
     { name: "Marketplace", href: "#" },
     { name: "Company", href: "#" },
   ];
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setActiveHeader(window.scrollY > 10);
+    });
+
+    return () => {
+      window.removeEventListener("scroll", () => {
+        setActiveHeader(window.scrollY > 10);
+      });
+    };
+  }, []);
+
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header
+      className={`sticky inset-x-0 top-0 z-50 lg:max-w-8xl mx-auto 
+	  ${activeHeader ? "bg-[#F3F4F6] shadow-sm" : "bg-transparent"}`}
+    >
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
