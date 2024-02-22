@@ -40,13 +40,13 @@ export default function Process() {
   }
 
   return (
-    <section className=" p-10 border mb-10 flex justify-around flex-col items-center gap-[8rem]">
+    <section className=" p-10 mb-10 flex justify-around flex-col items-center gap-[5rem]">
       <div>
         <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Our Simple Process
         </h2>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-x-[10rem] sm:gap-y-[4rem] lg:gap-x-10 ">
         <Steps />
       </div>
     </section>
