@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Ratings() {
+export default function Reviews() {
   return (
     <section>
       <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

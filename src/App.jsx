@@ -3,8 +3,8 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Products from "./components/Products";
 import Popup from "./components/Popup";
-import Ratings from "./components/Ratings";
-import Happenings from "./components/Happenings";
+import Reviews from "./components/Reviews";
+import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Process from "./components/Process";
 
@@ -14,13 +14,12 @@ export default function App() {
       <Header />
       <main className="p-10">
         <Hero />
-        <Process />
         <Products />
-        <Happenings />
-        <Ratings />
+        <Process />
+        <AboutUs />
+        <Reviews />
         <Footer />
-
-        <Popup />
+        {/* <Popup /> */}
       </main>
     </>
   );
