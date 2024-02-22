@@ -18,9 +18,9 @@ export default function App() {
         <Process />
         <AboutUs />
         <Reviews />
-        <Footer />
         {/* <Popup /> */}
       </main>
+      <Footer />
     </>
   );
 }
