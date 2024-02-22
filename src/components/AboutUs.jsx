@@ -11,7 +11,7 @@ export default function AboutUs() {
           className="object-cover object-center"
         />
       </div>
-      <div className=" flex items-start gap-5 flex-col h-full justify-around text-xl sm:px-5">
+      <div className="flex items-start gap-5 flex-col h-full justify-around text-[18px] sm:text-lg md:text-xl lg:text-xl sm:px-5">
         <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           About Us
         </h2>

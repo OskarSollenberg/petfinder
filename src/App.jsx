@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <main className="p-10 flex flex-col gap-[5rem]">
+      <main className="p-6 md:p-10 flex flex-col gap-[5rem]">
         <Hero />
         <Products />
         <Process />
