@@ -16,31 +16,22 @@ export default function AboutUs() {
           About Us
         </h2>
         <p className="max-w-[40rem]">
-          We know pet adoption, because we're adopters too. We think it's just
-          about the best thing you can do. But we'll be real: it can be a
-          lengthy (paperwork-filled) process.
+          Welcome to Petfinder where our passion for pets fuels our mission to
+          simplify pet adoption. As experienced adopters, we're here to guide
+          you every step of the way.
         </p>
         <p className="max-w-[40rem]">
-          So we're making it easier, with the tools, advice, and transparency
-          you need—from the first search through to daily life as a pet parent.
-        </p>
-        <p className="max-w-[40rem]">
-          Because we'll do whatever it takes to help millions of people and pets
-          find each other.
-        </p>
-        <p className="max-w-[40rem]">
-          Because we'll do whatever it takes to help millions of people and pets
-          find each other.
+          We are a community dedicated to creating lasting bonds by matching
+          pets with their forever homes. We offer the support, advice, and
+          resources you need to welcome your new family member with open arms.
         </p>
         <p>
-          {" "}
           <a
             className="text-blue-500 hover:text-blue-800 visited:text-purple-600"
-            href=""
+            href="/find-your-pet"
           >
-            Ready to find your pet?
-          </a>{" "}
-          Let's do it.
+            Find your new friend!
+          </a>
         </p>
 
         <div className="flex justify-center items-center gap-4§">

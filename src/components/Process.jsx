@@ -1,37 +1,44 @@
 import React from "react";
 
+import { FaMagnifyingGlass } from "react-icons/fa6";
+import { MdOutlineWavingHand } from "react-icons/md";
+import { LuClipboardPaste } from "react-icons/lu";
+import { GiDogHouse } from "react-icons/gi";
+
 export default function Process() {
   function Steps() {
     const stepsInfo = [
       {
         id: 1,
-        title: "This is the first step",
+        title: "Find Your Friend",
         description:
-          "We will start with the first step and move on to the next step.",
+          "Browse our online profiles to find your perfect pet match.",
+        icon: <FaMagnifyingGlass />,
       },
       {
         id: 2,
-        title: "This is the second step",
+        title: "Meet & Greet",
         description:
-          "We will start with the first step and move on to the next step.",
+          "Schedule a visit to meet your potential new family member.",
+        icon: <MdOutlineWavingHand />,
       },
       {
         id: 3,
-        title: "This is the third step",
-        description:
-          "We will start with the first step and move on to the next step.",
+        title: "Apply With Ease",
+        description: "Complete a simple application to ensure a perfect fit.",
+        icon: <LuClipboardPaste />,
       },
       {
         id: 4,
-        title: "This is the fourth step",
-        description:
-          "We will start with the first step and move on to the next step.",
+        title: "Bring Them Home",
+        description: "Finalize the adoption and welcome your new pet home.",
+        icon: <GiDogHouse />,
       },
     ];
     return stepsInfo.map((step) => (
       <div className="md:max-w-[15rem] border p-6 rounded-xl shadow-sm bg-white">
         <div className="flex items-center justify-center w-14 h-14 bg-[#1354FD] rounded-full">
-          <span className="text-white text-[1.5rem]">{step.id}</span>
+          <span className="text-white text-[1.5rem]">{step.icon}</span>
         </div>
         <h3 className="text-xl font-bold mt-4">{step.title}</h3>
         <p className="text-gray-500 mt-2">{step.description}</p>
