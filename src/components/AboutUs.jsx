@@ -30,7 +30,7 @@ export default function AboutUs() {
             className="text-blue-500 hover:text-blue-800 visited:text-purple-600"
             href="/find-your-pet"
           >
-            Find your new friend!
+            Find your pet now!!
           </a>
         </p>
 
