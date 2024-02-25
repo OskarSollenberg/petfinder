@@ -37,16 +37,19 @@ export default function Process() {
         icon: <GiDogHouse />,
       },
     ];
+
     return stepsInfo.map((step) => (
       <div
         key={step.id}
         className="md:max-w-[15rem] border p-6 rounded-xl shadow-sm bg-white"
-        aria-label={`Step: ${step.title}`}
+        aria-label={`Card ${step.id} :  ${step.title} `}
       >
-        <div className="flex items-center justify-center w-14 h-14 bg-[#1354FD] rounded-full">
-          <span aria-label="Icon representing step">
-            {step.icon} className="text-white text-[1.5rem]">{step.icon}
-          </span>
+        <div
+          role="image"
+          aria-label={`Icon representing step: ${step.id} ${step.title}`}
+          className="flex items-center justify-center w-14 h-14 bg-[#1354FD] rounded-full"
+        >
+          <span className="text-white text-[1.5rem]">{step.icon}</span>
         </div>
         <h3 className="text-xl font-bold mt-4">{step.title}</h3>
         <p className="text-gray-500 mt-2">{step.description}</p>
@@ -69,18 +72,16 @@ export default function Process() {
 
         <meta property="og:title" content="Adoption Process" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
+        <meta property="og:image" />
         <meta property="og:url" content="https://www.petfinder.com/process" />
       </Helmet>
       <section className="mb-10 flex justify-around flex-col items-center gap-[5rem]">
-        <div>
-          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            A Simple Process
-          </h2>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-x-[6rem] sm:gap-y-[4rem] lg:gap-x-10 ">
+        <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          A Simple Process
+        </h2>
+        <article className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-x-[6rem] sm:gap-y-[4rem] lg:gap-x-10 ">
           <Steps />
-        </div>
+        </article>
       </section>
     </>
   );

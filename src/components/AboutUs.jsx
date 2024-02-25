@@ -7,11 +7,11 @@ export default function AboutUs() {
       <div className="h-full overflow-hidden rounded-xl lg:max-h-[40rem] max-h-[25rem] sm:max-h-[30rem]">
         <img
           src={dogImage}
-          alt="Person holding a dog"
+          alt="Smiling girl holding a small dog"
           className="object-cover object-center"
         />
       </div>
-      <div className="flex items-start gap-5 flex-col h-full justify-around text-[18px] sm:text-lg md:text-xl lg:text-xl sm:px-5">
+      <article className="flex items-start gap-5 flex-col h-full justify-around text-[18px] sm:text-lg md:text-xl lg:text-xl sm:px-5">
         <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           About Us
         </h2>
@@ -33,16 +33,13 @@ export default function AboutUs() {
             Find your pet now!!
           </a>
         </p>
-
-        <div className="flex justify-center items-center gap-4§">
-          <button
-            type="button"
-            className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-8 py-4 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
-          >
-            More about us
-          </button>
-        </div>
-      </div>
+        <button
+          type="button"
+          className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-8 py-4 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+        >
+          More about us
+        </button>
+      </article>
     </section>
   );
 }
