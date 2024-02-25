@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import logo from '../assets/petsalvation-logo.png';
+import logo from '../assets/petsalvation.png';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ export default function Navbar() {
       }`}
     >
       <nav
-        className='flex items-center justify-between p-2 lg:px-8'
+        className='flex items-center justify-between p-2 lg:px-4'
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
