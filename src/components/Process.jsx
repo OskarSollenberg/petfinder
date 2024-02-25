@@ -38,13 +38,16 @@ export default function Process() {
       },
     ];
     return stepsInfo.map((step) => (
-      <card className="md:max-w-[15rem] border p-6 rounded-xl shadow-sm bg-white">
+      <div
+        key={step.id}
+        className="md:max-w-[15rem] border p-6 rounded-xl shadow-sm bg-white"
+      >
         <div className="flex items-center justify-center w-14 h-14 bg-[#1354FD] rounded-full">
           <span className="text-white text-[1.5rem]">{step.icon}</span>
         </div>
         <h3 className="text-xl font-bold mt-4">{step.title}</h3>
         <p className="text-gray-500 mt-2">{step.description}</p>
-      </card>
+      </div>
     ));
   }
 
@@ -64,6 +67,7 @@ export default function Process() {
         <meta property="og:title" content="Adoption Process" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="URL_TO_YOUR_IMAGE" />
+        <meta property="og:url" content="https://www.petfinder.com/process" />
       </Helmet>
       <section className="mb-10 flex justify-around flex-col items-center gap-[5rem]">
         <div>
