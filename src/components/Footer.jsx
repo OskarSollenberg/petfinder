@@ -81,7 +81,8 @@ export default function Footer() {
                 {partnerCompanies.map(( partnerCompany, index) =>(
                   <li key={index} className='flex text-center md:justify-center items-center p-4'>
                     <a href='#' className=' text-gray-700 hover:text-gray-900 flex flex-col items-center'>
-                      <img src={partnerCompany.logoPartner} alt={partnerCompany.namePartner} className='w-20'/>
+                      <img src={partnerCompany.logoPartner} alt={`logo of {partnerCompany.namePartner}`}
+                      width={80} height={80}className=''/>
                       <span className='text-sm md:text-base md:mt-4'>{partnerCompany.namePartner}</span>
                     </a>
                   </li>
