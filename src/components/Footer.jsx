@@ -77,12 +77,12 @@ export default function Footer() {
                 <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
                 Partner companies
                 </h3>
-                <ul role='list' className='flex mt-2 md:mt-8 md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-2'>
+                <ul role='list' className='flex justify-center mt-2 md:mt-8 md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-2'>
                 {partnerCompanies.map(( partnerCompany, index) =>(
-                  <li key={index} className='flex md:justify-center items-center p-4'>
-                    <a href='#' className='text-base text-gray-500 hover:text-gray-900 flex flex-col items-center'>
+                  <li key={index} className='flex text-center md:justify-center items-center p-4'>
+                    <a href='#' className=' text-gray-500 hover:text-gray-900 flex flex-col items-center'>
                       <img src={partnerCompany.logoPartner} alt={partnerCompany.namePartner} className='w-20'/>
-                      <span className='md:mt-4'>{partnerCompany.namePartner}</span>
+                      <span className='text-sm md:text-base md:mt-4'>{partnerCompany.namePartner}</span>
                     </a>
                   </li>
                 ))}
