@@ -1,39 +1,9 @@
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import ExternalMedias from './ExternalMedias.jsx'
+import partnerCompanies from './data/partnerCompanies.js'
 
 export default function Footer() {
 
-  const externalMedias = [
-    {
-      nameLink: 'Facebook',
-      faIcons: FaFacebook
-    },
-    {
-      nameLink: 'Instagram',
-      faIcons: FaInstagram
-    },
-    {
-      nameLink: 'Twitter/X',
-      faIcons: FaTwitter
-    },
-
-  ]
-
-  const partnerCompanies = [
-    {
-      namePartner: 'Purina',
-      logoPartner: 'https://www.purina.se/themes/custom/trim_the_tail_th/logo-og.png'
-    },
-    {
-      namePartner: 'If-insurance',
-      logoPartner: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/If_P%26C_Insurance_logo.svg/800px-If_P%26C_Insurance_logo.svg.png'
-    },
-    {
-      namePartner: 'Arken Zoo',
-      logoPartner: 'https://www.kungsmassan.se/Images/Butiker/2arkenzoo_1080x1080.png'
-    }
-  ]
-
-  const companyPaths = ['First part', 'Pets for Adoption', 'Process to adopt pets', 'About Us', 'Reviews'];
+  const companyPaths = ['Home', 'Sign Up', 'Pets for Adoption', 'Process to adopt pets', 'About Us', 'Reviews'];
 
   const legalPaths = ['Privacy Statement', 'Terms os Service'];
 
@@ -57,7 +27,7 @@ export default function Footer() {
             </p>
 
             <div className="flex space-x-6">
-            {externalMedias.map(( externalMedia, index) =>(
+            {ExternalMedias.map(( externalMedia, index) =>(
               <a key={index} href="#" className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">{externalMedia.nameLink}</span>
                 <externalMedia.faIcons className="h-6 w-6" aria-hidden="true"/>

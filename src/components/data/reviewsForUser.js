@@ -1,14 +1,14 @@
-import userImage1 from '../assets/users/user20.jpg';
-import userImage2 from '../assets/users/user3.jpg';
-import userImage3 from '../assets/users/user1.jpg';
-import userImage4 from '../assets/users/user8.jpg';
-import userImage5 from '../assets/users/user11.jpg';
-import userImage6 from '../assets/users/user18.jpg';
-import userImage7 from '../assets/users/user16.jpg';
-import userImage8 from '../assets/users/user12.jpg';
-import userImage9 from '../assets/users/user17.jpg';
+import userImage1 from '../../assets/users/user20.jpg';
+import userImage2 from '../../assets/users/user3.jpg';
+import userImage3 from '../../assets/users/user1.jpg';
+import userImage4 from '../../assets/users/user8.jpg';
+import userImage5 from '../../assets/users/user11.jpg';
+import userImage6 from '../../assets/users/user18.jpg';
+import userImage7 from '../../assets/users/user16.jpg';
+import userImage8 from '../../assets/users/user12.jpg';
+import userImage9 from '../../assets/users/user17.jpg';
 
-const ReviewsForUsers = [
+const reviewsForUsers = [
   {
     imageUser: userImage1,
     nameUser: 'Linda',
@@ -56,4 +56,4 @@ const ReviewsForUsers = [
   }
 ];
 
-export default ReviewsForUsers;
+export default reviewsForUsers;
