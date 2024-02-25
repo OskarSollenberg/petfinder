@@ -1,8 +1,17 @@
-import React, { useState } from "react";
-import catImage from "../assets/ebooks-dog.jpg";
+import React, { useState, useEffect } from "react";
+import dogImage from "../assets/ebooks-dog.webp";
 
 export default function Popup() {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 30000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     showPopup && (
       <div className="fixed inset-x-0 bottom-0 p-4">
@@ -29,7 +38,7 @@ export default function Popup() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <img
               alt=""
-              src={catImage}
+              src={dogImage}
               className="h-full w-full rounded-xl object-cover"
             />
 
