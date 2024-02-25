@@ -38,15 +38,15 @@ export default function Footer() {
           <div className='mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2'>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div className='w-96'>
-                <h3 className='text-md font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
                 Partner companies
                 </h3>
-                <ul role='list' className='mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2'>
+                <ul role='list' className='mt-2 md:mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-2'>
                 {partnerCompanies.map(( partnerCompany, index) =>(
-                  <li key={index} className='flex justify-center items-center p-4'>
+                  <li key={index} className='flex md:justify-center items-center p-4'>
                     <a href='#' className='text-base text-gray-500 hover:text-gray-900 flex flex-col items-center'>
                       <img src={partnerCompany.logoPartner} alt={partnerCompany.namePartner} className='w-20'/>
-                      <span className='mt-4'>{partnerCompany.namePartner}</span>
+                      <span className='md:mt-4'>{partnerCompany.namePartner}</span>
                     </a>
                   </li>
                 ))}
