@@ -27,7 +27,7 @@ export default function Footer() {
             </p>
 
             <div className='flex space-x-6'>
-            {ExternalMedias.map(( externalMedia, index) =>(
+            {ExternalMedias.map((externalMedia, index) =>(
               <a key={index} href='#' className='text-gray-400 hover:text-gray-500'>
                 <span className='sr-only'>{externalMedia.nameLink}</span>
                 <externalMedia.faIcons className='h-6 w-6' aria-hidden='true'/>
