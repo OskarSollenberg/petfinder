@@ -1,57 +1,60 @@
-import userImage1 from '../assets/users/user20';
+import userImage1 from '../assets/users/user20.jpg';
+import userImage2 from '../assets/users/user3.jpg';
+import userImage3 from '../assets/users/user1.jpg';
+import userImage4 from '../assets/users/user8.jpg';
+import userImage5 from '../assets/users/user11.jpg';
+import userImage6 from '../assets/users/user18.jpg';
+import userImage7 from '../assets/users/user16.jpg';
+import userImage8 from '../assets/users/user12.jpg';
+import userImage9 from '../assets/users/user17.jpg';
 
 export default function Reviews() {
 
   const ReviewsForUsers = [
     {
-      imageUser: {userImage1},
+      imageUser: userImage1,
       nameUser: 'Linda',
       testimony: "I can't thank this adoption site enough for bringing my new furry friend into my life! The process was smooth, the staff were caring, and now I have a loyal companion who brightens my days."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage2,
       nameUser: 'Michael',
       testimony: "Adopting from this site was the best decision I've ever made. The staff were supportive, the facilities were clean, and now I have a furry friend who brings so much love and joy into my life."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage3,
       nameUser: 'Emily',
       testimony: "I highly recommend this adoption website to anyone looking to add a pet to their family. The staff were friendly and knowledgeable, and now I have a new furry family member who brings so much happiness into my home."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage4,
       nameUser: 'David',
       testimony: "I'm so grateful to have found this adoption site. They made the process easy and stress-free, and now I have a loving companion who has become an integral part of my family."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage5,
       nameUser: 'Sophia',
       testimony: "I can't thank the team behind this adoption website enough. They truly care about the animals and work tirelessly to ensure they find loving forever homes. I'm so grateful for my new furry friend!"
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage6,
       nameUser: 'Emma',
       testimony: "This adoption site exceeded all my expectations. The staff were helpful, the facilities were clean and well-maintained, and now I have a furry friend who brings so much joy into my life."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage7,
       nameUser: 'Ethan',
       testimony: "Adopting from this site was such a positive experience. The staff were caring and supportive, and now I have a furry friend who brings so much happiness and love into my home."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      imageUser: userImage8,
       nameUser: 'Olivia',
       testimony: "I'm so grateful to have found my new furry friend through this adoption website. The staff were helpful and knowledgeable, and now I have a loving companion who brings so much joy into my life."
     },
     {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-      nameUser: 'Ava',
+      imageUser: userImage9,
+      nameUser: 'Eva',
       testimony: "Adopting from this site was one of the best decisions I've ever made. The staff were friendly and knowledgeable, the process was easy, and now I have a furry friend who brings so much happiness into my life."
-    },
-    {
-      imageUser: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-      nameUser: 'Mia',
-      testimony: "I couldn't be happier with my adoption experience through this site. The staff were caring and helpful, and now I have a furry friend who brings so much love and joy into my home."
     }
   ];
 
@@ -75,10 +78,10 @@ export default function Reviews() {
     <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
       Read trusted reviews from our customers
     </h2>
-    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {ReviewsForUsers.map((review, index) => (
-        <article key={index} className="mt-8">
-          <div className="mb-8 sm:break-inside-avoid">
+        <article key={index} className="mt-4">
+          <div className="mb-4 sm:break-inside-avoid">
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
