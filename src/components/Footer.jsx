@@ -9,7 +9,7 @@ export default function Footer() {
 
   
   return (
-    <footer className='bg-white' aria-labelledby='footer-heading'>
+    <footer className='bg-gray-100' aria-labelledby='footer-heading'>
       <h2 id='footer-heading' className='sr-only'>
         Logo and name 
       </h2>
@@ -17,11 +17,11 @@ export default function Footer() {
         <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
           <div className='space-y-8 xl:col-span-1'>
           {/*logo*/}
-            <img
+            {/* <img
               className='h-10'
               src='https://tailwindui.com/img/logos/workflow-mark-gray-300.svg'
               alt='Company name'
-            ></img>
+            ></img> */}
             <p className='text-gray-500 text-base'>
             Embrace Love, Adopt a Furry Friend Today!
             </p>
@@ -92,8 +92,9 @@ export default function Footer() {
           </div>
         </div>       
         <div className='mt-12 border-t border-gray-200 pt-8'>
-          <p className='text-base text-gray-400 xl:text-center'>
-            &copy; 2024 Animal Adoption Website. All Rights Reserved.
+          <p className='text-base text-gray-400 text-center'>
+            &copy; 2024 Animal Adoption Website. 
+            <p>All Rights Reserved.</p>
           </p>
         </div>
       </div>
