@@ -1,5 +1,5 @@
 
-import reviewsForUsers from './data/reviewsForUser.js';
+import reviewsUsers from './data/reviewsUsers.js';
 import Star from './Stars.jsx';
 
 export default function Reviews() {
@@ -10,7 +10,7 @@ export default function Reviews() {
           Read trusted reviews from our pet lovers
         </h2>
         <div className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-          {reviewsForUsers.map((review, index) => (
+          {reviewsUsers.map((review, index) => (
             <article key={index} className='mt-4'>
               <div className='mb-4 sm:break-inside-avoid'>
                 <blockquote className='rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8'>
