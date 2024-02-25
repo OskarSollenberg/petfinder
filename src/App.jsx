@@ -1,18 +1,16 @@
-import React from "react";
-import Hero from "./components/Hero";
-import Header from "./components/Header";
-import Products from "./components/Products";
-import Popup from "./components/Popup";
-import Reviews from "./components/Reviews";
-import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
-import Process from "./components/Process";
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Products from './components/Products';
+import Reviews from './components/Reviews';
+import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
+import Process from './components/Process';
 
 export default function App() {
   return (
     <>
-      <Header />
-      <main className="p-10">
+      <Navbar />
+      <main className='p-10'>
         <Hero />
         <Products />
         <Process />
