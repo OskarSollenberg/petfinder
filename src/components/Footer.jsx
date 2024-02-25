@@ -35,8 +35,8 @@ export default function Footer() {
             ))}
             </div>
           </div>
-          <div className='mt-12 grid md:grid-cols-2 gap-8 xl:mt-0 xl:col-span-2'>
-            <div className='md:grid md:grid-cols-2 md:gap-8'>
+          <div className='mt-8 grid md:grid-cols-2 gap-8 xl:mt-0 xl:col-span-2'>
+            <div className='md:grid md:grid-cols-2 md:gap-8 xl:col-span-2'>
               <div>
                 <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
                   Company
@@ -91,7 +91,7 @@ export default function Footer() {
             </div>
           </div>
         </div>       
-        <div className='mt-12 border-t border-gray-200 pt-8'>
+        <div className='mt-8 border-t border-gray-200 pt-8'>
           <p className='text-base text-gray-400 text-center'>
             &copy; 2024 Animal Adoption Website. 
             <p>All Rights Reserved.</p>
