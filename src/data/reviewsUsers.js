@@ -1,12 +1,12 @@
-import userImage1 from "../src/assets/users/user20.png";
-import userImage2 from "../src/assets/users/user3.png";
-import userImage3 from "../src/assets/users/user1.png";
-import userImage4 from "../src/assets/users/user8.png";
-import userImage5 from "../src/assets/users/user11.png";
-import userImage6 from "../src/assets/users/user18.png";
-import userImage7 from "../src/assets/users/user16.png";
-import userImage8 from "../src/assets/users/user12.png";
-import userImage9 from "../src/assets/users/user17.png";
+import userImage1 from "../assets/users/user20.png";
+import userImage2 from "../assets/users/user3.png";
+import userImage3 from "../assets/users/user1.png";
+import userImage4 from "../assets/users/user8.png";
+import userImage5 from "../assets/users/user11.png";
+import userImage6 from "../assets/users/user18.png";
+import userImage7 from "../assets/users/user16.png";
+import userImage8 from "../assets/users/user12.png";
+import userImage9 from "../assets/users/user17.png";
 
 const reviewsForUsers = [
   {

@@ -1,12 +1,11 @@
-import beagle from "../src/assets/beagle.webp";
-import labrador from "../src/assets/labrador.webp";
-import persian from "../src/assets/persian.webp";
-import siamese from "../src/assets/siamese.webp";
-import bengal from "../src/assets/bengal.webp";
-import germanShepherd from "../src/assets/germanShepherd.webp";
-import maineCoon from "../src/assets/maineCoon.webp";
-import goldenRetriever from "../src/assets/goldenRetriever.webp";
-
+import beagle from "../assets/beagle.webp";
+import labrador from "../assets/labrador.webp";
+import persian from "../assets/persian.webp";
+import siamese from "../assets/siamese.webp";
+import bengal from "../assets/bengal.webp";
+import germanShepherd from "../assets/germanShepherd.webp";
+import maineCoon from "../assets/maineCoon.webp";
+import goldenRetriever from "../assets/goldenRetriever.webp";
 
 export const pets = [
   {
@@ -16,7 +15,7 @@ export const pets = [
     category: "cat",
     id: 1,
     imageSrc: siamese,
-    imageAlt: "Photo of a siamese kitten."
+    imageAlt: "Photo of a siamese kitten.",
   },
   {
     name: "Fluffy",
@@ -25,7 +24,7 @@ export const pets = [
     category: "cat",
     id: 2,
     imageSrc: persian,
-    imageAlt: "Photo of a persian kitten."
+    imageAlt: "Photo of a persian kitten.",
   },
   {
     name: "Mittens",
@@ -34,7 +33,7 @@ export const pets = [
     category: "cat",
     id: 3,
     imageSrc: maineCoon,
-    imageAlt: "Photo of a maine coon."
+    imageAlt: "Photo of a maine coon.",
   },
   {
     name: "Buddy",
@@ -43,7 +42,7 @@ export const pets = [
     category: "dog",
     id: 4,
     imageSrc: labrador,
-    imageAlt: "Photo of a labrador retriever."
+    imageAlt: "Photo of a labrador retriever.",
   },
   {
     name: "Max",
@@ -52,7 +51,7 @@ export const pets = [
     category: "dog",
     id: 5,
     imageSrc: goldenRetriever,
-    imageAlt: "Photo of a golden retriever."
+    imageAlt: "Photo of a golden retriever.",
   },
   {
     name: "Daisy",
@@ -61,7 +60,7 @@ export const pets = [
     category: "dog",
     id: 6,
     imageSrc: beagle,
-    imageAlt: "Photo of a beagle."
+    imageAlt: "Photo of a beagle.",
   },
   {
     name: "Tiger",
@@ -70,7 +69,7 @@ export const pets = [
     category: "cat",
     id: 7,
     imageSrc: bengal,
-    imageAlt: "Photo of a bengal cat."
+    imageAlt: "Photo of a bengal cat.",
   },
   {
     name: "Rocky",
@@ -79,6 +78,6 @@ export const pets = [
     category: "dog",
     id: 8,
     imageSrc: germanShepherd,
-    imageAlt: "Photo of a german shepherd."
-  }
+    imageAlt: "Photo of a german shepherd.",
+  },
 ];

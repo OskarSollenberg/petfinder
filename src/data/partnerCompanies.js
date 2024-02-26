@@ -1,6 +1,6 @@
-import Purina from "../src/assets/partinerCompanies/1.png";
-import If from "../src/assets/partinerCompanies/2.png";
-import ArkenZoo from "../src/assets/partinerCompanies/3.png";
+import Purina from "../assets/partinerCompanies/1.png";
+import If from "../assets/partinerCompanies/2.png";
+import ArkenZoo from "../assets/partinerCompanies/3.png";
 
 const partnerCompanies = [
   {

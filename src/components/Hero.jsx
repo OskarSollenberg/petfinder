@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+
 import hero from '../assets/catanddogg.webp';
 
 export default function Hero() {
@@ -24,6 +25,7 @@ export default function Hero() {
           <a
             href='/adoption'
             className='bg-[#beda71] text-gray-900 hover:bg-[#bedc29] py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg'
+
           >
             Find Your Companion
           </a>
