@@ -43,7 +43,6 @@ export default function Navbar() {
               className='h-20 w-auto'
               src={logo}
               alt='Pet Salvation Logo'
-              loading='lazy'
             />
           </a>
         </div>

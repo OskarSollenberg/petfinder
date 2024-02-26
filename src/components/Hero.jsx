@@ -10,7 +10,6 @@ export default function Hero() {
             src={hero}
             alt='Cute cat and dog'
             className='object-cover object-center w-full h-full'
-            loading='lazy'
           />
         </div>
 
@@ -26,7 +25,7 @@ export default function Hero() {
             href='/adoption'
             className='bg-[#DDE5B6] text-gray-900 hover:bg-[#bedc29] py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg'
           >
-            Find Your Perfect Companion
+            Find Your Companion
           </a>
         </div>
       </div>
