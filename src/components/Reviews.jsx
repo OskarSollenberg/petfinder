@@ -1,4 +1,4 @@
-import reviewsUsers from "../../data/reviewsUsers.js";
+import reviewsUsers from "../data/reviewsUsers.js";
 
 export default function Reviews() {
   const Star = () => {

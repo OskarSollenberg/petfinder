@@ -8,8 +8,6 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Process from "./components/Process";
 
-
-
 export default function App() {
   return (
     <>

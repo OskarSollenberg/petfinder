@@ -25,14 +25,6 @@ export default function AboutUs() {
           pets with their forever homes. We offer the support, advice, and
           resources you need to welcome your new family member with open arms.
         </p>
-        <p>
-          <a
-            className="text-blue-500 hover:text-blue-800 visited:text-purple-600"
-            href="/find-your-pet"
-          >
-            Find your pet now!!
-          </a>
-        </p>
         <button
           type="button"
           className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-8 py-4 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"

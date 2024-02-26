@@ -1,5 +1,5 @@
-import { externalMedias } from "../../data/socialMedia.js";
-import partnerCompanies from "../../data/partnerCompanies.js";
+import { externalMedias } from "../data/socialMedia.js";
+import partnerCompanies from "../data/partnerCompanies.js";
 
 export default function Footer() {
   const companyPaths = [
