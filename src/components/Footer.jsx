@@ -14,8 +14,7 @@ export default function Footer() {
 
   const navigationLegal = [
     { nameItem: 'Privacy Statement', href: '#' },
-    { nameItem: 'Terms of Service', href: '#' },
-    { nameItem: 'Adoption Process', href: '#' }
+    { nameItem: 'Terms of Service', href: '#' }
   ];
 
   return (
