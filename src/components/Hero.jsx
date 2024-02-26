@@ -22,12 +22,12 @@ export default function Hero() {
             Heartwarming stories and testimonials from people who have
             adopted pets from Pet Finder.
           </p>
-          <a
-            href="/adoption"
-            className="bg-[#DDE5B6] text-gray-900 hover:bg-[#bedc29] py-2 px-6 rounded-full text-lg font-semibold transition duration-200 ease-in-out transform hover:scale-105 hover:shadow-lg "
+          <button
+            type='button'
+            className='focus:outline-none text-gray-900 bg-[#BEDA71] hover:bg-[#BEDC29] ease-in-out transform hover:scale-105 duration-200 font-medium rounded-full text-base px-8 py-4 mb-2'
           >
-            Find Your Companion
-          </a>
+            Find your companion
+          </button>
         </div>
       </div>
     </section>
