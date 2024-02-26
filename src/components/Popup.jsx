@@ -7,7 +7,7 @@ export default function Popup() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 30000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -18,13 +18,14 @@ export default function Popup() {
         className="fixed inset-x-0 bottom-0 p-4 x z-10"
         role="dialog"
         aria-modal="false"
-        aria-label="Offer for pet ebooks"
+        aria-label="Pet Ebooks Offers Popup"
       >
         <article className="relative max-w-xl rounded-lg bg-gray-100 p-6 shadow-sm grid grid-cols-1 gap-4 sm:grid-cols-2">
           <button
             onClick={() => setShowPopup(false)}
             type="button"
             className="absolute right-1 top-1 rounded-full border border-gray-200 bg-white p-1 text-gray-400"
+            aria-labelledby="Close popup"
           >
             <span className="sr-only">Close</span>
             <svg
@@ -41,7 +42,7 @@ export default function Popup() {
           </button>
 
           <img
-            alt="A woman reading a book with a dog in bed"
+            alt="A woman lying next to a dog in bed, reeding a book."
             src={dogImage}
             className="h-full w-full rounded-xl object-cover"
           />
@@ -58,12 +59,12 @@ export default function Popup() {
               Perfect for new and seasoned pet parents alike.
             </p>
             <div className="text-right">
-              <a
+              <button
                 href="#"
                 className="mt-6 inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
               >
                 Find out more
-              </a>
+              </button>
             </div>
           </div>
         </article>
