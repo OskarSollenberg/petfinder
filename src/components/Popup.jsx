@@ -15,7 +15,7 @@ export default function Popup() {
   return (
     showPopup && (
       <section
-        className="fixed inset-x-0 bottom-0 p-4"
+        className="fixed inset-x-0 bottom-0 p-4 x z-10"
         role="dialog"
         aria-modal="false"
         aria-label="Offer for pet ebooks"
