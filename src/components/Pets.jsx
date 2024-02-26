@@ -1,5 +1,5 @@
 import React from "react";
-import { pets } from "../../petData";
+import { pets } from "../../data/petData";
 
 export default function Pets() {
   return (

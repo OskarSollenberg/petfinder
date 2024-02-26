@@ -1,11 +1,11 @@
-import beagle from "./src/assets/beagle.webp";
-import labrador from "./src/assets/labrador.webp";
-import persian from "./src/assets/persian.webp";
-import siamese from "./src/assets/siamese.webp";
-import bengal from "./src/assets/bengal.webp";
-import germanShepherd from "./src/assets/germanShepherd.webp";
-import maineCoon from "./src/assets/maineCoon.webp";
-import goldenRetriever from "./src/assets/goldenRetriever.webp";
+import beagle from "../src/assets/beagle.webp";
+import labrador from "../src/assets/labrador.webp";
+import persian from "../src/assets/persian.webp";
+import siamese from "../src/assets/siamese.webp";
+import bengal from "../src/assets/bengal.webp";
+import germanShepherd from "../src/assets/germanShepherd.webp";
+import maineCoon from "../src/assets/maineCoon.webp";
+import goldenRetriever from "../src/assets/goldenRetriever.webp";
 
 
 export const pets = [
