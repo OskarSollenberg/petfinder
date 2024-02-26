@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section aria-label='Hero Section'>
       <div className='relative  h-screen text-white overflow-hidden'>
-        <div className='absolute inset-0'>
+        <div className='absolute inset-0 h-full overflow-hidden rounded-xl lg:max-h-[40rem] max-h-[25rem] sm:max-h-[30rem]'>
           <img
             src={hero}
             alt='Cute cat and dog'
@@ -13,7 +13,7 @@ export default function Hero() {
           />
         </div>
 
-        <div className='relative z-10 flex flex-col justify-center items-center h-full text-center'>
+        <div className='relative z-10 flex flex-col justify-center items-center h-full text-center lg:max-h-[40rem] max-h-[25rem] sm:max-h-[30rem]'>
           <h1 className='text-3xl sm:text-5xl font-bold leading-tight mb-4'>
             Don't buy your pet, adopt it.
           </h1>
