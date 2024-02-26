@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import logo from '../assets/petsalvation.png';
+import logo from '../assets/petfinder.png';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -38,11 +38,11 @@ export default function Header() {
       >
         <div className='flex lg:flex-1'>
           <a href='#' className='-m-1.5 p-1.5'>
-            <span className='sr-only'>Pet Salvation</span>
+            <span className='sr-only'>Pet Finder</span>
             <img
               className='h-20 w-auto'
               src={logo}
-              alt='Pet Salvation Logo'
+              alt='Pet Finder Logo'
             />
           </a>
         </div>
@@ -107,7 +107,7 @@ export default function Header() {
               <img
                 className='h-16 w-auto'
                 src={logo}
-                alt='Pet Salvation Logo'
+                alt='Pet Finder Logo'
               />
             </a>
             <button
