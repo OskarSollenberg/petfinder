@@ -2,16 +2,20 @@ import { externalMedias } from "../data/socialMedia.js";
 import partnerCompanies from "../data/partnerCompanies.js";
 
 export default function Footer() {
-  const companyPaths = [
-    "Home",
-    "Sign Up",
-    "Pets for Adoption",
-    "Process to Adopt Pets",
-    "About Us",
-    "Reviews",
+  
+  const navigationSite = [
+    { nameItem: 'Home', href: '#' },
+    { nameItem: 'Pets for Adoption', href: '#' },
+    { nameItem: 'Adoption Process', href: '#' },
+    { nameItem: 'About Us', href: '#' },
+    { nameItem: 'Success Stories', href: '#' },
+    { nameItem: 'Contact Us', href: '#' }
   ];
 
-  const legalPaths = ["Privacy Statement", "Terms of Service"];
+  const navigationLegal = [
+    { nameItem: 'Privacy Statement', href: '#' },
+    { nameItem: 'Terms of Service', href: '#' }
+  ];
 
   return (
     <footer className="bg-gray-100" aria-labelledby="footer-heading">
@@ -54,13 +58,13 @@ export default function Footer() {
                   Company
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
-                  {companyPaths.map((companyPath, index) => (
+                  {navigationSite.map((site, index) => (
                     <li key={index}>
                       <a
-                        href="#"
+                        href={site.href}
                         className="text-base text-gray-700 hover:text-gray-900"
                       >
-                        {companyPath}
+                        {site.nameItem}
                       </a>
                     </li>
                   ))}
@@ -71,13 +75,13 @@ export default function Footer() {
                   Legal
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
-                  {legalPaths.map((legalPath, index) => (
+                  {navigationLegal.map((legal, index) => (
                     <li key={index}>
                       <a
-                        href="#"
+                        href={legal.href}
                         className="text-base text-gray-700 hover:text-gray-900"
                       >
-                        {legalPath}
+                        {legal.nameItem}
                       </a>
                     </li>
                   ))}
