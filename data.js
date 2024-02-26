@@ -1,42 +1,84 @@
-export const products = [
+import beagle from "./src/assets/beagle.webp";
+import labrador from "./src/assets/labrador.webp";
+import persian from "./src/assets/persian.webp";
+import siamese from "./src/assets/siamese.webp";
+import bengal from "./src/assets/bengal.webp";
+import germanShepherd from "./src/assets/germanShepherd.webp";
+import maineCoon from "./src/assets/maineCoon.webp";
+import goldenRetriever from "./src/assets/goldenRetriever.webp";
+
+
+export const pets = [
   {
+    name: "Whiskers",
+    breed: "Siamese",
+    age: "2 months old",
+    category: "cat",
     id: 1,
-    name: "Earthen Bottle",
-    href: "#",
-    price: "$48",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
-    imageAlt:
-      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    imageSrc: siamese,
+    imageAlt: "Photo of a siamese kitten."
   },
   {
+    name: "Fluffy",
+    breed: "Persian",
+    age: "1 month old",
+    category: "cat",
     id: 2,
-    name: "Nomad Tumbler",
-    href: "#",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
-    imageAlt:
-      "Olive drab green insulated bottle with flared screw lid and flat top.",
+    imageSrc: persian,
+    imageAlt: "Photo of a persian kitten."
   },
   {
+    name: "Mittens",
+    breed: "Maine Coon",
+    age: "2 years old",
+    category: "cat",
     id: 3,
-    name: "Focus Paper Refill",
-    href: "#",
-    price: "$89",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
-    imageAlt:
-      "Person using a pen to cross a task off a productivity paper card.",
+    imageSrc: maineCoon,
+    imageAlt: "Photo of a maine coon."
   },
   {
+    name: "Buddy",
+    breed: "Labrador Retriever",
+    age: "5 years old",
+    category: "dog",
     id: 4,
-    name: "Machined Mechanical Pencil",
-    href: "#",
-    price: "$35",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
-    imageAlt:
-      "Hand holding black machined steel mechanical pencil with brass tip and top.",
+    imageSrc: labrador,
+    imageAlt: "Photo of a labrador retriever."
   },
+  {
+    name: "Max",
+    breed: "Golden Retriever",
+    age: "2 months old",
+    category: "dog",
+    id: 5,
+    imageSrc: goldenRetriever,
+    imageAlt: "Photo of a golden retriever."
+  },
+  {
+    name: "Daisy",
+    breed: "Beagle",
+    age: "3 years old",
+    category: "dog",
+    id: 6,
+    imageSrc: beagle,
+    imageAlt: "Photo of a beagle."
+  },
+  {
+    name: "Tiger",
+    breed: "Bengal",
+    age: "1 year old",
+    category: "cat",
+    id: 7,
+    imageSrc: bengal,
+    imageAlt: "Photo of a bengal cat."
+  },
+  {
+    name: "Rocky",
+    breed: "German Shepherd",
+    age: "3 years old",
+    category: "dog",
+    id: 8,
+    imageSrc: germanShepherd,
+    imageAlt: "Photo of a german shepherd."
+  }
 ];
