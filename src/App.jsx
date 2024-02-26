@@ -1,5 +1,5 @@
 import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
 import Products from './components/Products';
 import Reviews from './components/Reviews';
 import AboutUs from './components/AboutUs';
@@ -9,7 +9,7 @@ import Process from './components/Process';
 export default function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <main className='p-10'>
         <Hero />
         <Products />
