@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Helmet } from "react-helmet";
-
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { MdOutlineWavingHand } from "react-icons/md";
 import { LuClipboardPaste } from "react-icons/lu";
@@ -59,22 +57,6 @@ export default function Process() {
 
   return (
     <>
-      <Helmet>
-        <title>Adoption Process</title>
-        <meta
-          name="description"
-          content="Follow our simple 4-step process to adopt a pet. Find your friend, meet & greet, apply with ease, and bring them home. Start your pet adoption journey with us today."
-        />
-        <meta
-          name="keywords"
-          content="Pet Adoption, Adoption Process, Adopt a Pet, Pet Adoption Steps, Find a Pet"
-        />
-
-        <meta property="og:title" content="Adoption Process" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" />
-        <meta property="og:url" content="https://www.petfinder.com/process" />
-      </Helmet>
       <section className="mb-10 flex justify-around flex-col items-center gap-[5rem]">
         <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           A Simple Process
