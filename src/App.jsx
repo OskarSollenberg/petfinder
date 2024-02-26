@@ -1,3 +1,4 @@
+
 import React from "react";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
@@ -8,11 +9,14 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Process from "./components/Process";
 
+
 export default function App() {
   return (
     <>
+
+
       <Header />
-      <main className="p-6 md:p-10 flex flex-col gap-[5rem]">
+      <main className='p-6 md:p-10 flex flex-col gap-[5rem]'>
         <Hero />
         <Pets />
         <Process />
@@ -20,7 +24,6 @@ export default function App() {
         <Reviews />
         <Popup />
       </main>
-
       <Footer />
     </>
   );
