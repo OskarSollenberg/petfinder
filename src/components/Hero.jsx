@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import hero from '../assets/catanddog.png';
+import hero from '../assets/catanddog.webp';
 
 export default function Hero() {
   return (
