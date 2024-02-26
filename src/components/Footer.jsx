@@ -3,9 +3,9 @@ import partnerCompanies from './data/partnerCompanies.js'
 
 export default function Footer() {
 
-  const companyPaths = ['Home', 'Sign Up', 'Pets for Adoption', 'Process to adopt pets', 'About Us', 'Reviews'];
+  const companyPaths = ['Home', 'Sign Up', 'Pets for Adoption', 'Process to Adopt Pets', 'About Us', 'Reviews'];
 
-  const legalPaths = ['Privacy Statement', 'Terms os Service'];
+  const legalPaths = ['Privacy Statement', 'Terms of Service'];
 
   
   return (
