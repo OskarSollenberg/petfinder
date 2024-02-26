@@ -8,21 +8,15 @@ import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import Process from "./components/Process";
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 export default function App() {
   return (
     <>
       <Helmet>
-        <title>Adoption Process</title>
-        <meta
-          name="description"
-          content="Follow our simple 4-step process to adopt a pet. Find your friend, meet & greet, apply with ease, and bring them home. Start your pet adoption journey with us today."
-        />
-        <meta
-          name="keywords"
-          content="Pet Adoption, Adoption Process, Adopt a Pet, Pet Adoption Steps, Find a Pet"
-        />
+        <title>Pet</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
 
         <meta property="og:title" content="Adoption Process" />
         <meta property="og:type" content="website" />
