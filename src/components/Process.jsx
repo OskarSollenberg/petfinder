@@ -42,12 +42,14 @@ export default function Process() {
         className="md:max-w-[15rem] border p-6 rounded-xl shadow-sm bg-white"
         aria-label={`Card ${step.id} :  ${step.title} `}
       >
-        <div
-          role="image"
-          aria-label={`Icon representing step: ${step.id} ${step.title}`}
-          className="flex items-center justify-center w-14 h-14 bg-[#1354FD] rounded-full"
-        >
-          <span className="text-white text-[1.5rem]">{step.icon}</span>
+        <div className="flex items-center justify-center w-14 h-14 bg-[#1354FD] rounded-full">
+          <span
+            role="Icon"
+            aria-label={`Icon representing step: ${step.id} ${step.title}`}
+            className="text-white text-[1.5rem]"
+          >
+            {step.icon}
+          </span>
         </div>
         <h3 className="text-xl font-bold mt-4">{step.title}</h3>
         <p className="text-gray-500 mt-2">{step.description}</p>

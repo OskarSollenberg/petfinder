@@ -27,7 +27,7 @@ export default function AboutUs() {
         </p>
         <button
           type="button"
-          className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-8 py-4 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+          className="focus:outline-none text-gray-900 bg-[#BEDA71] hover:bg-[#BEDC29] ease-in-out transform hover:scale-105 duration-200 font-medium rounded-full text-sm px-8 py-4 mb-2"
         >
           More about us
         </button>

@@ -23,9 +23,8 @@ export default function Hero() {
             adopted pets from Pet Finder.
           </p>
           <a
-            href='/adoption'
-            className='bg-[#beda71] text-gray-900 hover:bg-[#bedc29] py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg'
-
+            href="/adoption"
+            className="bg-[#DDE5B6] text-gray-900 hover:bg-[#bedc29] py-2 px-6 rounded-full text-lg font-semibold transition duration-200 ease-in-out transform hover:scale-105 hover:shadow-lg "
           >
             Find Your Companion
           </a>
