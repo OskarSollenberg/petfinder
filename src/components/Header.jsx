@@ -12,6 +12,7 @@ export default function Header() {
     { name: 'Adoption Process', href: '#' },
     { name: 'About Us', href: '#' },
     { name: 'Success Stories', href: '#' },
+    { name: 'Contact Us', href: '#' },
   ];
 
   useEffect(() => {
