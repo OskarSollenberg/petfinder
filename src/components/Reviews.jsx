@@ -17,7 +17,7 @@ export default function Reviews() {
 
   return (
     <section>
-      <div className="mx-auto max-w-screen-xl py-12 sm:px-6 lg:px-8 lg:py-16">
+      <div className="mx-auto max-w-screen-xl">
         <h2 className="text-left text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Read trusted reviews from our pet lovers
         </h2>
