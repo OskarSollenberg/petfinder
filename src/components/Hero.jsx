@@ -11,6 +11,8 @@ export default function Hero() {
             src={hero}
             alt="Cute cat and dog"
             className="object-cover bg-[#adc178] object-center w-full h-full"
+            width={1456}
+            height={816}
           />
         </div>
 
