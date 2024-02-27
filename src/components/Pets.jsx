@@ -3,7 +3,7 @@ import { pets } from "../data/petData";
 
 export default function Pets() {
   return (
-    <section className="bg-white" aria-label="pets-section">
+    <section aria-label="pets-section">
       <div className="mx-auto max-w-2xl lg:max-w-7xl flex flex-col gap-10">
         <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Pets For Adoption
