@@ -2,6 +2,7 @@ import { Fragment, useState, useEffect } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import ebook from '../assets/ebook.png';
 
+
 export default function Popup() {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -98,6 +99,7 @@ export default function Popup() {
                   No, thank you!
                 </button>
               </div>
+
             </div>
           </Transition.Child>
         </div>
