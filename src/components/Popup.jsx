@@ -49,7 +49,10 @@ export default function Popup() {
             <div className='relative inline-block align-bottom bg-[#f0ead2] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6'>
               <div>
                 <div className='mx-auto flex items-center justify-center h-40 w-40 rounded-full bg-green-100'>
-                  <img src={ebook}></img>
+                  <img
+                    src={ebook}
+                    alt='cover of ebook titled how to take care about pets'
+                  ></img>
                 </div>
                 <div className='mt-3 text-center sm:mt-5'>
                   <Dialog.Title
