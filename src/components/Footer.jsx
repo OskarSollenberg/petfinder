@@ -4,16 +4,16 @@ import partnerCompanies from '../data/partnerCompanies.js';
 export default function Footer() {
   const navigationSite = [
     { nameItem: 'Home', href: '#' },
-    { nameItem: 'Pets for Adoption', href: '#' },
+    { nameItem: 'Available Pets', href: '#' },
     { nameItem: 'Adoption Process', href: '#' },
     { nameItem: 'About Us', href: '#' },
     { nameItem: 'Success Stories', href: '#' },
-    { nameItem: 'Contact Us', href: '#' }
+    { nameItem: 'Contact Us', href: '#' },
   ];
 
   const navigationLegal = [
     { nameItem: 'Privacy Statement', href: '#' },
-    { nameItem: 'Terms of Service', href: '#' }
+    { nameItem: 'Terms of Service', href: '#' },
   ];
 
   return (
@@ -58,12 +58,12 @@ export default function Footer() {
                 <h3 className='text-sm font-semibold text-gray-700 tracking-wider uppercase'>
                   Company
                 </h3>
-                <ul role="list" className="mt-4 space-y-4">
+                <ul role='list' className='mt-4 space-y-4'>
                   {navigationSite.map((site, index) => (
                     <li key={index}>
                       <a
                         href={site.href}
-                        className="text-base text-gray-700 hover:text-gray-900"
+                        className='text-base text-gray-700 hover:text-gray-900'
                       >
                         {site.nameItem}
                       </a>
@@ -75,12 +75,12 @@ export default function Footer() {
                 <h3 className='text-sm font-semibold text-gray-700 tracking-wider uppercase'>
                   Legal
                 </h3>
-                <ul role="list" className="mt-4 space-y-4">
+                <ul role='list' className='mt-4 space-y-4'>
                   {navigationLegal.map((legal, index) => (
                     <li key={index}>
                       <a
                         href={legal.href}
-                        className="text-base text-gray-700 hover:text-gray-900"
+                        className='text-base text-gray-700 hover:text-gray-900'
                       >
                         {legal.nameItem}
                       </a>
