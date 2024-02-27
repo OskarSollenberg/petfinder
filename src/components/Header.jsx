@@ -34,7 +34,7 @@ export default function Header() {
       }`}
     >
       <nav
-        className="flex items-center justify-between lg:px-4"
+        className="flex items-center justify-between px-4 lg:px-4"
         aria-label="Global"
       >
         <div className="flex lg:flex-1 ">
