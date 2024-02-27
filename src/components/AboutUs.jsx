@@ -9,6 +9,7 @@ export default function AboutUs() {
           src={dogImage}
           alt="Smiling girl holding a small dog"
           className="object-cover object-center"
+          loading="lazy"
         />
       </div>
       <article className="flex items-center text-center gap-10 flex-col h-full lg:justify-center text-[18px] sm:text-lg md:text-xl lg:text-xl sm:px-5">
