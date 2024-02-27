@@ -20,6 +20,9 @@ export default function Pets() {
                 <img
                   src={pet.imageSrc}
                   alt={pet.imageAlt}
+                  loading="lazy"
+                  width={300}
+                  height={300}
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
