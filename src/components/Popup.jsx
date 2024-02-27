@@ -83,7 +83,7 @@ export default function Popup() {
                       Send mine!
                     </button>
                   </div>
-                  <div className='flex  text-left mt-2 text-sm'>
+                  <Transition.Child className='flex  text-left mt-2 text-sm'>
                     <input
                       id='gpdr'
                       name='gpdr'
@@ -100,7 +100,7 @@ export default function Popup() {
                       </a>
                       .
                     </label>
-                  </div>
+                  </Transition.Child>
                 </div>
               </div>
               <div className='mt-5 sm:mt-6'>
