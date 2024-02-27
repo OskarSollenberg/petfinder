@@ -42,7 +42,6 @@ export default function Process() {
       >
         <div className="flex items-center justify-center w-14 h-14 bg-[#A88467] rounded-full">
           <span
-            role="Icon"
             aria-label={`Icon representing step: ${step.id} ${step.title}`}
             className="text-white text-[1.5rem]"
           >
