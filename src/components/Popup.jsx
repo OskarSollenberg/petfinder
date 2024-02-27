@@ -1,6 +1,6 @@
 import { Fragment, useState, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import ebook from "../assets/ebook.png";
+import ebook from "../assets/ebook-cover.png";
 
 export default function Popup() {
   const [showPopup, setShowPopup] = useState(false);
@@ -48,7 +48,7 @@ export default function Popup() {
           >
             <div className="relative inline-block align-bottom bg-[#f0ead2] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6">
               <div>
-                <div className="mx-auto flex items-center justify-center h-40 w-40 rounded-full bg-green-100">
+                <div className="mx-auto flex items-center justify-center h-40 w-40">
                   <img
                     src={ebook}
                     alt="cover of ebook titled how to take care about pets"
