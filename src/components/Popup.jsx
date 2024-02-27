@@ -8,7 +8,7 @@ export default function Popup() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 2000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -18,7 +18,6 @@ export default function Popup() {
         as='div'
         className='fixed z-10 inset-0 overflow-y-auto'
         onClose={setShowPopup}
-        aria-label='Offer for pet ebooks'
       >
         <div className='flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0'>
           <Transition.Child
@@ -50,10 +49,7 @@ export default function Popup() {
             <div className='relative inline-block align-bottom bg-[#f0ead2] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6'>
               <div>
                 <div className='mx-auto flex items-center justify-center h-40 w-40 rounded-full bg-green-100'>
-                  <img
-                    src={ebook}
-                    alt='cover of ebook titled how to take care about your pets'
-                  ></img>
+                  <img src={ebook}></img>
                 </div>
                 <div className='mt-3 text-center sm:mt-5'>
                   <Dialog.Title
@@ -86,6 +82,24 @@ export default function Popup() {
                     >
                       Send mine!
                     </button>
+                  </div>
+                  <div className='flex  text-left mt-2 text-sm'>
+                    <input
+                      id='gpdr'
+                      name='gpdr'
+                      type='checkbox'
+                      required
+                    />
+                    <label htmlFor='gpdr' className=' pl-2'>
+                      I accept your{' '}
+                      <a
+                        href='#'
+                        className='hover:text-blue-700 underline'
+                      >
+                        Privacy Policy and Terms of Use
+                      </a>
+                      .
+                    </label>
                   </div>
                 </div>
               </div>
