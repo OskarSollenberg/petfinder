@@ -1,6 +1,6 @@
 import { Fragment, useState, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import ebook from "../assets/ebook-cover.png";
+import ebook from "../assets/ebook.png";
 
 export default function Popup() {
   const [showPopup, setShowPopup] = useState(false);
