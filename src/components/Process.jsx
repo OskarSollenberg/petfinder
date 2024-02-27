@@ -8,7 +8,7 @@ export default function Popup() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 2000);
+    }, 15000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -82,6 +82,24 @@ export default function Popup() {
                     >
                       Send mine!
                     </button>
+                  </div>
+                  <div className='flex  text-left mt-2 text-sm'>
+                    <input
+                      id='gpdr'
+                      name='gpdr'
+                      type='checkbox'
+                      required
+                    />
+                    <label htmlFor='gpdr' className=' pl-2'>
+                      I accept your{' '}
+                      <a
+                        href='#'
+                        className='hover:text-blue-700 underline'
+                      >
+                        Privacy Policy and Terms of Use
+                      </a>
+                      .
+                    </label>
                   </div>
                 </div>
               </div>
