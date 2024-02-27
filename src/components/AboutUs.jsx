@@ -3,7 +3,7 @@ import dogImage from "../assets/holding-dog.webp";
 
 export default function AboutUs() {
   return (
-    <section className="grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:max-h-[40rem] lg:grid-cols-2 lg:gap-10 justify-center items-end gap-8 sm:items-center mx-auto lg:max-w-7xl">
+    <section className="grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:max-h-[40rem] lg:grid-cols-2 lg:gap-10 justify-center items-end gap-8 sm:items-center">
       <div className="h-full overflow-hidden rounded-xl lg:max-h-[40rem]  max-h-[18rem] sm:max-h-[30rem]">
         <img
           src={dogImage}
@@ -11,7 +11,7 @@ export default function AboutUs() {
           className="object-cover object-center"
         />
       </div>
-      <article className="flex items-center text-center gap-5 flex-col h-full lg:justify-center text-[18px] sm:text-lg md:text-xl lg:text-xl sm:px-5">
+      <article className="flex items-center text-center gap-10 flex-col h-full lg:justify-center text-[18px] sm:text-lg md:text-xl lg:text-xl sm:px-5">
         <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           About Us
         </h2>
