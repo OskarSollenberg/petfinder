@@ -128,7 +128,7 @@ export default function Footer() {
         <div className='mt-8 border-t border-gray-200 pt-8'>
           <p className='text-base text-gray-700 text-center'>
             &copy; 2024 Animal Adoption Website.
-            <span>All Rights Reserved.</span>
+            <span> All Rights Reserved.</span>
           </p>
         </div>
       </div>
