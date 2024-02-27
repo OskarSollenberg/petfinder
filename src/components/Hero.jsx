@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import hero from "../assets/catanddogg.webp";
+import heroMobile from "../assets/catanddogg-mb.webp";
 
 export default function Hero() {
   return (
@@ -9,6 +10,8 @@ export default function Hero() {
         <div className="absolute inset-0 h-full overflow-hidden rounded-xl lg:max-h-[40rem] max-h-[25rem] sm:max-h-[30rem]">
           <img
             src={hero}
+            srcSet={`${heroMobile} 728w, ${hero} 1456w`}
+            sizes="(max-width: 600px) 728px, 1456px"
             alt="Cute cat and dog"
             className="object-cover bg-[#adc178] object-center w-full h-full"
             width={1456}
